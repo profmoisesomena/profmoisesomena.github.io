@@ -1,4 +1,4 @@
-title: Hello, world! I'm Moisés Omena
+title: Hello, world! I'm David Freeman
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -9,17 +9,17 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: Moisés Omena # add your name
-author-img: mo_400x400.png # add your photo
-about-author: I am a data scientist focusing Project Based Learning (PBL), Scrum as well as Agile Software Development, and has been acting on the following subjects: Databases, Business Intelligence, Data Warehouse, Data Transformation Processes (ETL), Analytical Cubes, Dashborards, Data Mining, Data Science , Geoprocessing, Geographic Information Systems. Always hungry to keep learning. # add description
+author: Moises Omena # add your name
+author-img: david-freeman.jpg # add your photo
+about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
 social-twitter: # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github:  profmoisesomena # add your Github handle
+social-github: artemsheludko # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: # add your Email address
 
 # Disqus
-discus-identifier:  # add your discus identifier
+discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
