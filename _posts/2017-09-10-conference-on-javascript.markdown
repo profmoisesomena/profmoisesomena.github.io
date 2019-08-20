@@ -1,13 +1,39 @@
 ---
 layout: post
-title: Conference on Javascript
-date: 2017-09-10 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: js-1.png # Add image post (optional)
-tags: [Js, Conference] # add tag
+title: Projetos de Data Warehouse e Business Intelligence consistentes
+date: 2019-08-08 00:00:00 +0900
+description: Neste post iremos listar 10 pontos de grande relavância para um projeto de DW/BI sadio. (optional)
+img: dw_bi.png # Add image post (optional)
+tags: [DW, BI] # add tag
 ---
-Jean shorts organic cornhole, gochujang post-ironic chicharrones authentic flexitarian viral PBR&B forage wolf. Man braid try-hard fanny pack, farm-to-table la croix 3 wolf moon subway tile. Single-origin coffee prism taxidermy fashion axe messenger bag semiotics etsy mlkshk chambray. Marfa lumbersexual meditation celiac. Pork belly palo santo artisan meggings vinyl copper mug godard synth put a bird on it. Cloud bread pop-up quinoa, raw denim meditation 8-bit slow-carb. Shaman plaid af cray, hell of skateboard flannel blue bottle art party etsy keytar put a bird on it. Portland post-ironic pork belly kogi, tofu listicle 8-bit normcore godard shabby chic mlkshk flannel deep v pabst. Pork belly kinfolk fingerstache lo-fi raclette. Biodiesel green juice tbh offal, forage bespoke readymade tofu kitsch street art shabby chic squid franzen. Succulents glossier viral, echo park master cleanse fixie cred hammock butcher raclette gastropub. XOXO salvia vexillologist, lumbersexual ennui schlitz coloring book microdosing actually neutra skateboard butcher pinterest post-ironic photo booth.
 
-Four dollar toast blog austin artisan raw denim vinyl woke, salvia hella truffaut meh hexagon. Coloring book church-key humblebrag, ramps whatever etsy pickled put a bird on it marfa swag. Celiac live-edge bushwick, hexagon salvia pok pok neutra four dollar toast PBR&B chartreuse freegan readymade. Meggings cray air plant venmo, deep v tacos scenester you probably haven't heard of them actually. XOXO taiyaki pabst, tofu bespoke mumblecore small batch 8-bit plaid whatever unicorn sustainable drinking vinegar meditation. Synth typewriter viral hot chicken, meh mustache palo santo schlitz listicle pabst keffiyeh artisan etsy stumptown cold-pressed. Occupy locavore cray irony. Chambray whatever vaporware keffiyeh heirloom vice. Single-origin coffee neutra iPhone lyft. Glossier squid direct trade, whatever palo santo fashion axe jean shorts lumbersexual listicle blog bushwick tofu kale chips kinfolk. Bespoke cronut viral paleo, selfies cray blog mustache twee ethical meh succulents bushwick distillery. Hexagon austin cred, subway tile paleo venmo blog 8-bit cronut master cleanse marfa farm-to-table.
-
-Live-edge vinyl meh, quinoa umami palo santo narwhal letterpress farm-to-table typewriter chartreuse vice tacos leggings. Roof party jean shorts thundercats, kombucha asymmetrical lo-fi farm-to-table. Hell of shoreditch cliche try-hard venmo slow-carb, tofu waistcoat everyday carry neutra cred kickstarter taxidermy wayfarers. Direct trade banh mi pug skateboard banjo edison bulb. Intelligentsia cliche quinoa synth umami. Trust fund four loko hoodie paleo cray tote bag slow-carb ennui. Williamsburg food truck intelligentsia trust fund. Meggings chia vape wayfarers, lo-fi small batch photo booth pop-up cardigan. Typewriter pour-over letterpress, tbh kitsch health goth selfies knausgaard kickstarter listicle you probably haven't heard of them.
+Neste post vamos apresentar algums importantes pontos relacionados a um projeto sadio de BI/DW.Sem mais delongas vamos ao 10 pontos mais importantes relacionados a um projeto de BI/DW.
+1. Resistindo o impulso de iniciar a codificação.
+Ralph Kimball, define que que padoxalmente um dos mais importantes passos na concepção do BI é parar.
+Voltar uma semana e certificarse de que se tem uma perspectiva ampla o suficinente de todos os requerimentos que envolvem seu projeto é muito importante.
+Projetar um DW/BI é uma tarefa que envolve um grande desafio que pode levar a descoberta de problemas durante o andamento caso não haja um planejamento sólido. Por isso, é importante antes de iniciar qualquer código, projetar as tabelas, ou especificações de hardware e software, parar e refletir sobre as seguintes questões apontadas por Ralph Kinball.
+1 - Business requirements (requerimentos de negócio):
+Você esta a par dos principais indicadores chave de desempenho (KPIS - Key performance Indicatores) que seus clientes/usuários realmente necessitam para tomar decissões que são realmente importantes para a empresa? Tendo uma resposta positiva para esta questão voce poderá identificar os ativos de dados necessários para apoiar as tomadas as decisões e será capaz de decidir que medidas e processos abordará primeiro.
+2 - Strategic data profiling (perfil de dados estratégicos):
+Você verificou se os ativos de dados disponíves são necessários para responder as principais perguntas? O objetivo é tomar decisões sobre se devemos ou não proseguir em uma área ou assunto no início do projeto de DW/BI.
+3 - Tactical data profiling (perfil de dados táticos):
+Existe um órdem/diretiva executiva clara para apoiar o necessário processo de reengenharia requerido por uma cultura efetiva de qualidae de dados eficaz, talvez, ate mesmo direcionada para os Seis Sigmas da Qualidade de Dados? O único caminho real para umentar a qualidade dos dados é voltar para a fonte e descobrir porque melhores dados não estão sendo inseridos. Normalmente isto envolve um compromisso dos níveis mais altos para mudar o funcionamento dos processos de negócio de ponta a ponta, ao invés de direcionar a culpa simplesmente para os funcionários que inserem dados nos sistemas.
+4 - Integration (Integração):
+Existe um órdem executiva clara na organização para definir descritores1 comuns e medidas atraves de todos nossos processos voltados para o clientes? Todas as organizações da empresa que participam da integração de dados devem chegar a um acordo sobre os principais descritores e medidas. Os Executivos deixaram claro que isto deverá acontecer?
+5 - Latency (Latência).
+Voce tem uma definição realistica dos requesitos de negócios do usuários sobre a rapidez com que os dados devem ser publicados data warehouse, inclusive: on line, muitas vezes por dia ou de modo instantâneo?
+6 - Compliance (Conformidade):
+Voce rebebeu diretrizes claras da gerencia sênior quanto a conformidade e sensibilidade dos dados?
+7 - Security (Segurança)
+Voce sabe como voce irá proteger dados proprietários e confidenciais no processo de ETL , nos Desktops dos usuários na Web e em todas as medias permanentes?
+8 - Archiving (Arquivamento):
+Voce tem um plano realista para arquivamento de longo prazo de dados importantes e sabe quais dados devem ser arquivados?
+9 - Supporting business users (Suporte para usuários de negócios):
+Voce definiu os pefís de toda comunidade de usuários envolvidos para determinar suas habilidades para usar planilhas, construir consultas ad hoc em ferramentas de bancos de dados, ou somente visualizar relatórios em suas telas? Os usuários esperam anexar feramentas de análises preditivas e mineção de dados para entender os dados subjacentes?
+10 - IT licenses and skill sets (Licenças de TI e conjuntos de habilidades):
+Você está preparado para confiar nas principais licenças dos sites de tecnologia que a sua organização já contratou e você possui funcionários suficientes com habilidades avançadas para explorar as escolhas técnicas que feitas? Você sabe quais partes da sua organização esperam acessar Big Data ou a Internet das Coisas (IoT), e vocês possuem as habilidades para apoiar essas atividades que muitas vezes resultam em serviços externos de TI?
+Concluindo
+O tempo gasto respondento estas questãoes clássicas do DW é enormentente valioso. Cada uma das respostas irá afetar a arquitetura, escolha de abordaregns e até mesmo a viabilidade de seu projeto de DW/BI. É extremamente importante não começar a codificar antes que todos os membros da equipe entendam o que estas perguntas significam!
+Referências:
+Ralph Kimball, DM Review, Nov 2007
+1. Descritores:elemento que tem a função de descobrir, identificar ou indexar algo.
