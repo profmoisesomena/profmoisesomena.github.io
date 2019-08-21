@@ -3,11 +3,11 @@ layout: post
 title: How To Start Programming
 date: 2017-09-12 00:00:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: how-to-start.jpg # Add image post (optional)
-tags: [Programming, Learn] # add tag
+img: fastbiblue.png # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [Framework, BI]
 ---
-Post-ironic jean shorts bushwick umami, synth beard austin hell of meh kitsch distillery sustainable plaid bitters. Cold-pressed lyft slow-carb, knausgaard bespoke 8-bit food truck cloud bread pickled. Taiyaki bitters trust fund heirloom craft beer single-origin coffee. Readymade fam vape blue bottle cold-pressed, flannel polaroid. Aesthetic four dollar toast semiotics af bicycle rights. Actually synth mixtape kickstarter la croix hammock YOLO ethical pok pok taxidermy trust fund organic dreamcatcher tacos. Franzen four loko man braid letterpress umami offal. Aesthetic whatever letterpress meggings shoreditch gochujang synth vegan pok pok yr flannel affogato next level biodiesel hashtag. Banjo vaporware lyft unicorn tumblr. Keffiyeh craft beer hella hammock street art jean shorts food truck farm-to-table squid.
-
+Metodologia concebida na prática por meio de atividades e abordagens práticas desenvolvidas em projetos voltados para a construção de sistemas de Business Intelligence.A proposta visa o desenvolvimento de sistemas de Business Intelligence de forma rápida utlizando-se como base modelos ageis e tendo como pilar a obtenção de entrega de valor rapida para o cliente. Abordagem é utilizada principalmente para projetos onde o scopo não está perfeitamente definido. Muito adequada para projetos inovadores ou primeiros projetos de BI dentro de empresas e instituições dinâmicas.
 >Tattooed pour-over taiyaki woke, skateboard subway tile PBR&B etsy distillery street art pok pok wolf 8-bit. Vegan bicycle rights schlitz subway tile unicorn taiyaki.
 
 Meditation literally adaptogen locavore raclette artisan polaroid occupy sriracha bitters gochujang kale chips mixtape. Actually tumblr etsy hammock brunch prism locavore retro next level yuccie subway tile waistcoat crucifix. Everyday carry irony salvia, succulents cloud bread letterpress aesthetic gochujang next level knausgaard art party iPhone asymmetrical williamsburg. Iceland slow-carb knausgaard narwhal skateboard kitsch fashion axe. Man bun celiac street art, cliche PBR&B lomo blue bottle beard bitters. Mlkshk occupy offal dreamcatcher. Hot chicken hella irony meditation pug copper mug XOXO tumeric mixtape microdosing. Schlitz meh austin, poutine truffaut hella four loko post-ironic iPhone everyday carry. Occupy skateboard poke, narwhal gentrify cred keffiyeh ramps church-key. Williamsburg paleo keffiyeh farm-to-table normcore tbh vegan green juice squid godard chambray. DIY organic letterpress, venmo salvia crucifix gluten-free. Yr celiac tbh selfies activated charcoal.
